@@ -49,6 +49,7 @@ module.exports.run = async (bot, message, args, idioma) => {
         embed1.setFooter(idioma.play.solicitado + res.tracks[0].requester.tag, `${res.tracks[0].requester.avatarURL({ dynamic: true, size: 2048 })}`)
         if(!player.playing && !player.paused && !player.queue.length) player.play();
         return message.channel.send(embed1);
+
         case 'PLAYLIST_LOADED':
           player.queue.add(res.tracks);
           if(!player.playing && !player.paused && player.queue.size === res.tracks.length) player.play();
@@ -60,6 +61,7 @@ module.exports.run = async (bot, message, args, idioma) => {
           embed2.setDescription(`${idioma.play.playlist} \`${res.playlist.name}\` ${idioma.play.com} \`${res.tracks.length}\` ${idioma.play.musicas}\n${idioma.play.duracao} \`${moment.duration(res.playlist.duration).format("d:hh:mm:ss")}\``)
           if(!player.playing && !player.paused && player.queue.size === res.tracks.length) player.play();
           return message.channel.send(embed2);
+
           case 'SEARCH_RESULT':
             let max = 5, collected, filter = (m) => m.author.id === message.author.id && /^(\d+|cancelar)$/i.test(m.content) || message.author.id && /^(\d+|cancel)$/i.test(m.content);
             if(res.tracks.length < max) max = res.tracks.length;
@@ -112,7 +114,7 @@ module.exports.run = async (bot, message, args, idioma) => {
 exports.conf = {
         enabled: true,
         guildOnly: true,
-        aliase: ["tocar", "p"]
+        aliase: ["tocar", "p", "search"]
 }
 exports.help = {
         nome: "play",

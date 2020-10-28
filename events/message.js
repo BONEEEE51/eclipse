@@ -27,7 +27,7 @@ bot.on("message", async message => {
     if(!message.content.startsWith(prefix)) return;
     let commandfile = bot.commands.get(cmd.slice(prefix.length))
     if(!commandfile) commandfile = bot.aliases.get(cmd.slice(prefix.length).toLowerCase())
-    if(commandfile.conf.enabled === false) { return message.channel.send(idioma.message.desabilitado)}
+    if(if(!API.eval.includes(message.author.id))&&!commandfile.conf.enabled) { return message.channel.send(idioma.message.desabilitado)}
     if(!message.guild) return;
     if(commandfile) commandfile.run(bot,message,args,idioma);
 })

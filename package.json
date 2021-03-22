@@ -1,14 +1,13 @@
 {
   "name": "eclipse",
-  "version": "1.4.0",
-  "description": "sim",
-  "repository": "https://github.com/BONEE4/Eclipse",
+  "version": "1.0.0",
+  "repository": "https://github.com/HiekkiStudio/Eclipse",
   "main": "shard.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "BONEE",
-  "license": "ISC",
+  "author": "Hiekki4",
+  "license": "GPL-3.0",
   "dependencies": {
     "@sindresorhus/to-milliseconds": "^1.2.0",
     "ascii-table": "0.0.9",

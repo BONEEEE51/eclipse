@@ -13,7 +13,7 @@
     "ascii-table": "0.0.9",
     "better-sqlite-pool": "latest",
     "better-sqlite3": "^7.1.1",
-    "boats.js": "^2.5.0",
+    "boats.js": "^2.5.1",
     "byte-size": "^7.0.0",
     "canvacord": "^5.0.7",
     "canvas": "^2.6.1",

@@ -27,7 +27,7 @@
     "discord.bots.gg": "^0.3.0-v1.2",
     "discord.js": "^12.3.1",
     "discord.js-collector": "^1.6.7",
-    "discord.js-light": "^3.3.3",
+    "discord.js-light": "^3.5.8",
     "enmap": "^5.7.3",
     "erela.js": "github:Solaris9/erela.js#build",
     "erela.js-spotify": "latest",

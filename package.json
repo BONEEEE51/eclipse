@@ -12,7 +12,7 @@
     "@sindresorhus/to-milliseconds": "^1.2.0",
     "ascii-table": "0.0.9",
     "better-sqlite-pool": "latest",
-    "better-sqlite3": "^7.1.1",
+    "better-sqlite3": "^7.1.4",
     "boats.js": "^2.5.0",
     "byte-size": "^7.0.0",
     "canvacord": "^5.0.7",

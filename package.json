@@ -31,7 +31,7 @@
     "enmap": "^5.7.3",
     "erela.js": "github:Solaris9/erela.js#build",
     "erela.js-spotify": "latest",
-    "eris": "^0.13.3",
+    "eris": "^0.14.1",
     "fs": "0.0.1-security",
     "get-image-colors": "^4.0.0",
     "glob": "^7.1.6",

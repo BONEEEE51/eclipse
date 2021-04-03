@@ -16,7 +16,7 @@
     "boats.js": "^2.5.0",
     "byte-size": "^7.0.0",
     "canvacord": "^5.0.7",
-    "canvas": "^2.6.1",
+    "canvas": "^2.7.0",
     "child_process": "^1.0.2",
     "colors": "^1.4.0",
     "common-tags": "^1.8.0",

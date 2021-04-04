@@ -1,5 +1,0 @@
-config/config.json
-node_modules/
-src/core/player/nodes.js
-data
-.env

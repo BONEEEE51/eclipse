@@ -37,7 +37,7 @@
     "moment": "^2.29.1",
     "music-progress-bar": "^1.0.4",
     "path": "^0.12.7",
-    "util": "^0.12.3"
+    "util": "^0.12.4"
   },
   "devDependencies": {
     "@types/node": "^14.14.37",
